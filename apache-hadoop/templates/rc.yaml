@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: {{ .Values.name }}{{ .Values.USERID }}
+  labels:
+    app: {{ .Values.name }}{{ .Values.USERID }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Values.name }}{{ .Values.USERID }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.name }}{{ .Values.USERID }}
+    spec:
+      containers:
+        - name: {{ .Values.name }} 
+          image: {{ .Values.image.hub }}/{{ .Values.image.namespace }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          resources:
+            requests:
+              cpu: "1000m"
+              memory: "2Gi"
+            limits:
+              cpu: "1000m"
+              memory: "2Gi"

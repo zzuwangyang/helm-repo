@@ -1,0 +1,7 @@
+apiVersion: v1
+name: greenplum
+description: ""
+type: application
+version: 1.0.33
+icon: https://s3.amazonaws.com/greenplum.org/wp-content/uploads/2018/10/30175109/logo-gpdb1.svg
+
