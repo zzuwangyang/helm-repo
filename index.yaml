@@ -2,18 +2,18 @@ apiVersion: v1
 entries:
   apache-hadoop:
   - apiVersion: v1
-    created: "2021-01-22T11:35:16.1321291+08:00"
-    digest: a5f8e6eff3238851c1cc108f3ace5903946ca415a68d541847ea5c259b2f936e
+    created: "2021-01-22T11:48:41.2838555+08:00"
+    digest: 03ad77f78d47b8d45981fe7fcd11f6dac78210ac176895d99631a4fcbe3c668c
     home: https://hadoop.apache.org/
     icon: http://hadoop.apache.org/images/hadoop-logo.jpg
     name: apache-hadoop
     type: application
     urls:
-    - https://zzuwangyang.github.io/helm-repo/apache-hadoop-1.0.67.tgz
-    version: 1.0.67
+    - https://zzuwangyang.github.io/helm-repo/apache-hadoop-1.0.68.tgz
+    version: 1.0.68
   apache-hbase:
   - apiVersion: v1
-    created: "2021-01-22T11:35:16.1331383+08:00"
+    created: "2021-01-22T11:48:41.2848754+08:00"
     description: ' '
     digest: b2a90fcac8f1dafe8921b15344b1786bbc7a507ee294b80d11270f1e55e0440d
     icon: http://hbase.apache.org/images/hbase_logo_with_orca.png
@@ -25,7 +25,7 @@ entries:
   demo:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2021-01-22T11:35:16.1331383+08:00"
+    created: "2021-01-22T11:48:41.285872+08:00"
     description: A Helm chart for Kubernetes
     digest: fbf7d3f4e707cb9fdd2bc08e020fb626d69e60f132454f5c56c0f77564e356f0
     name: demo
@@ -33,4 +33,4 @@ entries:
     urls:
     - https://zzuwangyang.github.io/helm-repo/demo-0.1.2.tgz
     version: 0.1.2
-generated: "2021-01-22T11:35:16.1311385+08:00"
+generated: "2021-01-22T11:48:41.2803448+08:00"
