@@ -5,5 +5,5 @@ type: application
 home: https://hadoop.apache.org/
 icon: http://hadoop.apache.org/images/hadoop-logo.jpg
 # 添加图标
-version: 1.0.68
+version: 1.0.69
 
